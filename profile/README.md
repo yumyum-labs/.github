@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[![Tech Stack](https://img.shields.io/badge/Tech%20Stack-Spring%20Boot%20%7C%20Vue.js-green)](https://github.com/yumyum-labs)
+[![Tech Stack](https://img.shields.io/badge/Tech%20Stack-Spring%20Boot%20%7C%20React-green)](https://github.com/yumyum-labs)
 [![AI Powered](https://img.shields.io/badge/AI-OpenAI%20GPT--4o-blue)](https://openai.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
 
@@ -30,24 +30,27 @@ MBTI 페르소나 기반의 AI 챗봇이 사용자와 1:1로 대화하며, 정�
 
 ## 🛠️ Tech Stack
 
-### Backend
-<img src="https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/OkHttp-4.12-000000?style=for-the-badge&logo=square&logoColor=white">
+### Backend & AI
+<img src="https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-3.5-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
+<img src="https://img.shields.io/badge/MyBatis-3.0-000000?style=for-the-badge&logo=mybatis&logoColor=white"> <img src="https://img.shields.io/badge/OkHttp-4.12-000000?style=for-the-badge&logo=square&logoColor=white"> <img src="https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white">
 
-### AI & Data
-<img src="https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+### Frontend
+<img src="https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Vite-6.3-646CFF?style=for-the-badge&logo=vite&logoColor=white"> <img src="https://img.shields.io/badge/Radix%20UI-161618?style=for-the-badge&logo=radixui&logoColor=white">
 
-### DevOps & Tools
-<img src="https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=for-the-badge&logo=jenkins&logoColor=white"> <img src="https://img.shields.io/badge/Git-VCS-F05032?style=for-the-badge&logo=git&logoColor=white">
+### Data & Infra
+<img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=for-the-badge&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=for-the-badge&logo=jenkins&logoColor=white">
 
 ---
 
 ## 📂 Repositories
 
-| Repository | Description | Status |
-| :--- | :--- | :---: |
-| **[yumyum-be](https://github.com/yumyum-labs/yumyum-be)** | 메인 백엔드 서버 (API, DB, 비즈니스 로직) | 🟢 Active |
-| **[yumyum-ai-dev](https://github.com/yumyum-labs/yumyum-ai-dev)** | AI 챗봇 모듈, 프롬프트 엔지니어링, G-Eval 테스트 | 🟢 Active |
-| **[yumyum-fe](https://github.com/yumyum-labs/yumyum-fe)** | 사용자 인터페이스 (Vue.js) | 🟡 Dev |
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| **[yumyum-be](https://github.com/yumyum-labs/yumyum-be)** | `Spring Boot` `MyBatis` `Redis` | 메인 백엔드 서버. 사용자 관리, 인증(Security), DB 연동 및 비즈니스 로직 처리. |
+| **[yumyum-ai-dev](https://github.com/yumyum-labs/yumyum-ai-dev)** | `Spring Boot` `OpenAI` `OkHttp` | AI 챗봇 코어 모듈. 프롬프트 엔지니어링, G-Eval 품질 평가 시스템, API 연동 담당. |
+| **[font-mockup](https://github.com/yumyum-labs/font-mockup)** | `React` `Vite` `Radix UI` | (aka yumyum-fe) 영양 요약 대시보드 및 사용자 인터페이스 프로토타입. |
+| **[yumyum-config](https://github.com/yumyum-labs/yumyum-config)** | `YAML` | 마이크로서비스 및 애플리케이션 설정 중앙 관리 저장소. |
+| **[yumyum-workflows](https://github.com/yumyum-labs/yumyum-workflows)** | `GitHub Actions` | CI/CD 파이프라인 및 자동화 워크플로우 스크립트 모음. |
 
 ---
 
@@ -66,6 +69,9 @@ MBTI 페르소나 기반의 AI 챗봇이 사용자와 1:1로 대화하며, 정�
 <div align="left">
   <a href="https://github.com/tellang">
     <img src="https://github.com/tellang.png" width="60px" alt="tellang" style="border-radius: 50%"/>
+  </a>
+  <a href="https://github.com/hy5sun">
+    <img src="https://github.com/hy5sun.png" width="60px" alt="hy5sun" style="border-radius: 50%"/>
   </a>
   <!-- 팀원 추가 가능 -->
 </div>
